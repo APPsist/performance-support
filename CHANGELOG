@@ -1,0 +1,55 @@
+FUTURE
+- [PLANNED] Added connection to communication and collaboration service.
+- [NEW] Added language utilities.
+
+1.8.2
+- [FIX] Updated fixed IID connector.
+- [HOTFIX] Additional content should now be shown properly. 
+
+1.8.0
+- [UPDATE] Now performs default flow during side activity.
+
+1.7.0 -- 2016-07-07
+- [UPDATE] Now accepts initial context for assistance processes.
+
+1.6.2
+- [NEW] Added service status signals.
+- [UPDATE] Updated logging levels.
+
+1.6.0 - 2016-04-15
+- [NEW] Added additional content information for assistance steps.
+- [NEW] Added service based process flow control.
+- [UPDATE] Refactoring.
+
+1.5.1 - 2016-03-09
+- [FIX] Fixed double loading of task at the beginning of a subprocess. [APPSIST-250]
+- [FIX] Fixed missing history in second process step.
+
+1.5.0 - 2016-03-08
+- [NEW] Added assistance step history.
+- [FIX] Fixed 404 for already retrieved content.
+
+1.4.0 - 2016-03-03
+- [UPDATE] Replaced internal PKI connection with PKI connector.
+- [NEW] Added process tree titles to assistance steps, see [APPSIST-197].
+- [UPDATE] Replaces "back" feature with popup showing the previous step. [APPSIST-145] 
+- [FIX] Changed wording. [APPSIST-204]
+
+1.3.3 -- 03.02.2016
+- [FIX] Updated message when process is missing.
+- [NEW] Added page to display when content is missing.
+
+1.3.2 -- 28.01.2016
+- [FIX] The "previous" button is now only shown when the function is available. [APPSIST-117]
+
+1.3.1 -- 25.01.2016
+- [FIX] Added cancel button to process tasks. 
+
+1.3.0 -- 22.01.2016
+- [NEW] Added support for termination events. 
+
+1.2.0 -- 17.12.2015
+- [UPDATE] Updated API for content selector.
+
+1.1.4 -- 27.11.2015
+- Now sends a notification to Content Navigation Service when a content package has been delivered. 

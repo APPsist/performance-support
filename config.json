@@ -1,0 +1,19 @@
+{
+  "webserver":{
+    "port":8093,
+    "statics":"static",
+    "basePath":"/services/psd"
+  },
+  "db":"vertx.mongopersistor",
+  "auth":"vertx.basicauthmanager",
+  "services":{
+    "host":"localhost",
+    "port":8080,
+    "secure":false,
+    "paths":{
+      "pki":"/services/pki",
+      "ihs":"/services/ihs"
+    }
+  },
+  "debugMode":true
+}
