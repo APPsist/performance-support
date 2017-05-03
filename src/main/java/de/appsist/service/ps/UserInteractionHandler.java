@@ -309,8 +309,15 @@ public class UserInteractionHandler {
 						AssistanceStepBuilder builder = new AssistanceStepBuilder();
 						builder.setTitle(title);
 						builder.setProgress(1.0d);
-						builder.setInfo("Assistenz erfolgreich abgeschlossen.");
-						builder.setContentBody(new ContentBody.Empty());
+						// builder.setInfo("Assistenz erfolgreich abgeschlossen.");
+						// builder.setContentBody(new ContentBody.Empty());
+						String path = new StringBuilder()
+							.append("/services/ufs/feedbackForm?sid=").append(event.getSessionId())
+							.append("&uid=").append(event.getUserId())
+							.append("&pid=").append(event.getProcessId())
+							.toString();
+						
+						builder.setContentBody(new ContentBody.Frame(path));
 						// TODO Use content package instead of info text. 
 						JsonObject messageBody = new JsonObject();
 						messageBody.putString("action", "endDisplay");

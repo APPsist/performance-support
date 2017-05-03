@@ -1,6 +1,8 @@
 FUTURE
-- [PLANNED] Added connection to communication and collaboration service.
 - [NEW] Added language utilities.
+
+1.9.0
+- [NEW] Added feedback form.
 
 1.8.2
 - [FIX] Updated fixed IID connector.

@@ -5,7 +5,7 @@
   <groupId>de.appsist.service</groupId>
   <artifactId>performance-support</artifactId>
   <packaging>jar</packaging>
-  <version>1.8.2</version>
+  <version>1.9.0-SNAPSHOT</version>
   <name>APPsist Performance Support Service</name>
   <url>http://www.appsist.de/</url>
 
